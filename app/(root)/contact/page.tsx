@@ -9,7 +9,7 @@ const Contact = () => {
    const animations = animation_config.contact;
    const configs = config.getInTouch;
    return (
-      <main className="lg:container !px-0 pt-20">
+      <div className="lg:container !px-0 pt-20">
          <div className="w-full container pb-16 sm:pb-20 px-10 flex flex-col space-y-7 sm:flex-row sm:space-y-0 sm:space-x-8 lg:space-x-24 items-center justify-center relative">
             <div
                className={cn(
@@ -77,7 +77,7 @@ const Contact = () => {
                />
             </div>
          </div>
-      </main>
+      </div>
    );
 };
 

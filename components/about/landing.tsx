@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-import { Button } from "../ui/button";
 import ParallaxImage from "../helpers/parallax-image";
 import {
    AboutLandingPageAnimationConfig,
@@ -16,7 +15,7 @@ const AboutLandingPage = ({
    animations: AboutLandingPageAnimationConfig;
 }) => {
    return (
-      <main className="w-full min-h-[calc(100vh-64px)] container overflow-hidden pt-20 py-28 px-10 flex lg:space-x-7 items-center relative">
+      <div className="w-full min-h-[calc(100vh-64px)] container overflow-hidden pt-20 py-28 px-10 flex lg:space-x-7 items-center relative">
          <div
             className={cn(
                "flex flex-col space-y-7 w-full sm:w-3/5 z-10 animate__animated lg:delay-500",
@@ -49,7 +48,7 @@ const AboutLandingPage = ({
                className="w-screen h-full lg:w-[unset] lg:h-[unset] object-cover rounded-none opacity-40 lg:opacity-100"
             />
          </div>
-      </main>
+      </div>
    );
 };
 
