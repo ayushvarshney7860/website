@@ -28,3 +28,11 @@ Step 5 : After making all the changes goto the git source control and:
 
 ---
 Note - Remove all the unecessary images from the public folder
+
+## To convert images to webp
+
+- Goto `F:/imagetowebp`
+- Paste all the images in the `/images` folder
+- open `git bash`
+- run `npm run convert`
+- All the images will be converted to their webp counterparts.
