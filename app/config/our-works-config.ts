@@ -5,7 +5,7 @@ const config: OurWorksPageConfig = {
    default_category: "Category 1",
    image_categories: [
       {
-         name: "Category 1",
+         name: "Ring Ceremony",
          images: [
             "/assets/dummy.jpg",
             "/assets/something.jpg",
@@ -28,7 +28,7 @@ const config: OurWorksPageConfig = {
          ],
       },
       {
-         name: "Category 2",
+         name: "Haldi",
          images: [
             "/assets/something.jpg",
             "/assets/something.jpg",
@@ -51,7 +51,53 @@ const config: OurWorksPageConfig = {
          ],
       },
       {
-         name: "Category 3",
+         name: "Mehndi",
+         images: [
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+         ],
+      },
+      {
+         name: "Wedding",
+         images: [
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+            "/assets/dummy.jpg",
+            "/assets/something.jpg",
+         ],
+      },
+      {
+         name: "Pre-Wedding",
          images: [
             "/assets/something.jpg",
             "/assets/dummy.jpg",

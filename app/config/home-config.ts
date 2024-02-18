@@ -5,7 +5,7 @@ const config: Config = {
       featured_text: "Capturing Moments That Last A Lifetime",
       featured_description:
          "Welcome to our photography portfolio. Where every picture tells a story.",
-      featured_image: "/assets/home-landing/something.jpg",
+      featured_image: "/assets/home-landing/front.webp",
       image_strip: [
          "/assets/home-landing/1.webp",
          "/assets/home-landing/2.webp",
