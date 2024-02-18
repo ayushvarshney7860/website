@@ -2,21 +2,21 @@ import { Config } from "@/types";
 
 const config: Config = {
    home: {
-      featured_text: "Capturing Moments That Last A Lifetime",
+      featured_text: "Something Moments That Last A Lifetime",
       featured_description:
          "Welcome to our photography portfolio. Where every picture tells a story.",
-      featured_image: "/assets/something.jpg",
+      featured_image: "/assets/home-landing/something.jpg",
       image_strip: [
-         "/assets/dummy.jpg",
-         "/assets/something.jpg",
-         "/assets/dummy.jpg",
-         "/assets/something.jpg",
-         "/assets/dummy.jpg",
-         "/assets/something.jpg",
-         "/assets/dummy.jpg",
-         "/assets/something.jpg",
-         "/assets/dummy.jpg",
-         "/assets/something.jpg",
+         "/assets/home-landing/1.jpg",
+         "/assets/home-landing/2.jpg",
+         "/assets/home-landing/3.jpg",
+         "/assets/home-landing/4.jpg",
+         "/assets/home-landing/5.jpg",
+         "/assets/home-landing/6.jpg",
+         "/assets/home-landing/7.jpg",
+         "/assets/home-landing/8.jpg",
+         "/assets/home-landing/9.jpg",
+         "/assets/home-landing/10.jpg",
       ],
    },
    services: {
@@ -68,7 +68,7 @@ const config: Config = {
          {
             title: "Special packages",
             description:
-               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos autem impedit tempora fugit? Dolorem ipsa explicabo ipsum laborum id.",
+               " We recognize that each wedding is as unique as the couple it celebrates. That's why we offer personalized packages to suit your preferences and budget. From intimate ceremonies to grand celebrations, we have the perfect photography package for you..",
          },
       ],
       image_strip: [
@@ -109,6 +109,13 @@ const config: Config = {
             description:
                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati nobis quidem fugiat corporis commodi vitae, exercitationem mollitia iste eum ullam, minima harum consequuntur optio qui ea voluptate, nostrum libero totam saepe eos! Dolorem?",
             imageUrl: "/assets/dummy.jpg",
+            name: "Arjun Varshney",
+            date: "Feb 2024",
+         },{
+            stars: 2.5,
+            description:
+               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati nobis quidem fugiat corporis commodi vitae, exercitationem mollitia iste eum ullam, minima harum consequuntur optio qui ea voluptate, nostrum libero totam saepe eos! Dolorem?",
+            imageUrl: "/assets/person.jpg",
             name: "Arjun Varshney",
             date: "Feb 2024",
          },

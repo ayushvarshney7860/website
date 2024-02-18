@@ -5,8 +5,19 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from "@/lib/utils";
 import { PlayCircle } from "lucide-react";
 import Image from "next/image";
+import { Key } from "react";
 
 const OurWork = () => {
+   function divideArrayEqually(arr: any[], numArrays: number) {
+      const dividedArrays = [];
+      const itemsPerArray = Math.ceil(arr.length / numArrays);
+
+      for (let i = 0; i < arr.length; i += itemsPerArray) {
+         dividedArrays.push(arr.slice(i, i + itemsPerArray));
+      }
+
+      return dividedArrays;
+   }
    return (
       <div className="container pb-20">
          <h1
@@ -39,32 +50,43 @@ const OurWork = () => {
             {config.image_categories.map((category) => (
                <TabsContent
                   value={category.name}
-                  className="grid grid-cols-2 sm:grid-cols-3 gap-1"
+                  className="grid grid-cols-3 gap-1"
                   key={category.name}
                >
-                  {category.images.map((image, index) => (
-                     <Drawer key={index}>
-                        <DrawerTrigger>
-                           <Image
-                              src={image}
-                              alt={"sample-image"}
-                              height={300}
-                              width={300}
-                              className="hover:scale-105 transition-all rounded w-full"
-                           />
-                        </DrawerTrigger>
-                        <DrawerContent className="h-[90%]">
-                           <Image
-                              src={image}
-                              alt={"sample-image"}
-                              height={700}
-                              width={700}
-                              key={index}
-                              className="transition-all rounded h-[calc(100%-48px)] w-full object-contain my-auto"
-                           />
-                        </DrawerContent>
-                     </Drawer>
-                  ))}
+                  {divideArrayEqually(category.images, 3).map(
+                     (images, index) => (
+                        <div className="flex flex-col w-full gap-1" key={index}>
+                           {images.map(
+                              (
+                                 image: string,
+                                 index: Key | null | undefined
+                              ) => (
+                                 <Drawer key={index}>
+                                    <DrawerTrigger>
+                                       <Image
+                                          src={image}
+                                          alt={"sample-image"}
+                                          height={300}
+                                          width={300}
+                                          className="hover:scale-105 transition-all rounded w-full"
+                                       />
+                                    </DrawerTrigger>
+                                    <DrawerContent className="h-[90%]">
+                                       <Image
+                                          src={image}
+                                          alt={"sample-image"}
+                                          height={700}
+                                          width={700}
+                                          key={index}
+                                          className="transition-all rounded h-[calc(100%-48px)] w-full object-contain my-auto"
+                                       />
+                                    </DrawerContent>
+                                 </Drawer>
+                              )
+                           )}
+                        </div>
+                     )
+                  )}
                </TabsContent>
             ))}
             <TabsContent

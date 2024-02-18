@@ -110,9 +110,9 @@ const Testimonial = ({
                               <Image
                                  src={testimonial.imageUrl}
                                  alt="client-image"
-                                 width={60}
-                                 height={60}
-                                 className="rounded-full w-[40px] h-[40px] sm:w-[60px] sm:h-[60px]"
+                                 width={200}
+                                 height={200}
+                                 className="rounded-full w-[40px] h-[40px] sm:w-[60px] sm:h-[60px] object-cover"
                               />
                               <div className="flex flex-col justify-center">
                                  <span className="font-semibold opacity-85 text-base sm:text-lg">

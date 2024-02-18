@@ -24,9 +24,9 @@ const ImageStrip = ({ images }: { images: string[] }) => {
                   src={image}
                   alt="image"
                   key={index}
-                  height={100}
-                  width={100}
-                  className="h-32 w-32 lg:h-40 lg:w-40"
+                  height={300}
+                  width={300}
+                  className="h-32 w-32 lg:h-40 lg:w-40 object-cover"
                />
             ))}
          </Parallax>
