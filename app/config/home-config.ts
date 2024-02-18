@@ -7,8 +7,8 @@ const config: Config = {
          "Welcome to our photography portfolio. Where every picture tells a story.",
       featured_image: "/assets/home-landing/something.jpg",
       image_strip: [
-         "/assets/home-landing/1.jpg",
-         "/assets/home-landing/2.jpg",
+         "/assets/home-landing/1.webp",
+         "/assets/home-landing/2.webp",
          "/assets/home-landing/3.jpg",
          "/assets/home-landing/4.jpg",
          "/assets/home-landing/5.jpg",
@@ -49,10 +49,10 @@ const config: Config = {
          },
       ],
       know_more_btn_text: "Know More",
-      know_more_btn_href: "/services",
+      know_more_btn_href: "/services"
    },
    about: {
-      heading: "About Us",
+      heading: "Why Choose Us ?",
       image: "/assets/dummy.jpg",
       features: [
          {
