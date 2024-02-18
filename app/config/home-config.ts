@@ -17,6 +17,12 @@ const config: Config = {
          "/assets/home-landing/8.jpg",
          "/assets/home-landing/9.jpg",
          "/assets/home-landing/10.jpg",
+         "/assets/home-landing/5.jpg",
+         "/assets/home-landing/6.jpg",
+         "/assets/home-landing/7.jpg",
+         "/assets/home-landing/8.jpg",
+         "/assets/home-landing/9.jpg",
+         "/assets/home-landing/10.jpg",
       ],
    },
    services: {
