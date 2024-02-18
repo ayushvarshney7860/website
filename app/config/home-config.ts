@@ -49,7 +49,7 @@ const config: Config = {
          },
       ],
       know_more_btn_text: "Know More",
-      know_more_btn_href: "/services"
+      know_more_btn_href: "/services",
    },
    about: {
       heading: "About Us",
@@ -87,15 +87,15 @@ const config: Config = {
    experience: {
       exp: [
          {
-            bold: "10+",
+            bold: 10,
             title: "Years of experience",
          },
          {
-            bold: "100+",
+            bold: 100,
             title: "Photoshoots",
          },
          {
-            bold: "1500+",
+            bold: 1500,
             title: "Happy Customers",
          },
       ],

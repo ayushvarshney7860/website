@@ -32,7 +32,7 @@ const Services = () => {
       );
    };
    return (
-      <main className="lg:container !px-0 overflow-hidden">
+      <div className="lg:container !px-0 overflow-hidden">
          <h1
             className={cn(
                "text-5xl xs:text-6xl sm:text-7xl font-bold text-center mt-16 mb-10 lg:-mb-10 animate__animated",
@@ -106,7 +106,7 @@ const Services = () => {
                <ImageStrip images={service.image_strip} />
             </div>
          ))}
-      </main>
+      </div>
    );
 };
 

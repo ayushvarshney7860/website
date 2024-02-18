@@ -15,7 +15,7 @@ const Hero = ({
 }) => {
    return (
       <div className="relative pt-16 lg:pb-36">
-         <main className="w-full container px-10 flex lg:space-x-7 py-24 lg:pt-0 lg:pb-5 items-center overflow-hidden">
+         <div className="w-full container px-10 flex lg:space-x-7 py-24 lg:pt-0 lg:pb-5 items-center overflow-hidden">
             <div
                className={cn(
                   "flex flex-col space-y-7 w-3/5 z-10 animate__animated lg:delay-500",
@@ -48,7 +48,7 @@ const Hero = ({
                   className="w-screen h-full lg:w-[unset] lg:h-[unset] object-cover rounded-none opacity-40 lg:opacity-100"
                />
             </div>
-         </main>
+         </div>
          <ImageStrip images={config.image_strip} />
       </div>
    );

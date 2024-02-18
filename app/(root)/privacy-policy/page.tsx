@@ -1,6 +1,6 @@
 const PrivacyPolicy = () => {
    return (
-      <main className="container pt-10 pb-20">
+      <div className="container pt-10 pb-20">
          <h1 className="text-7xl font-bold text-center mt-16 mb-7 animate__animated">
             Privacy Policy
          </h1>
@@ -52,7 +52,7 @@ const PrivacyPolicy = () => {
             Nemo, voluptates ullam nihil fugit nulla reprehenderit explicabo
             voluptate alias tenetur.
          </div>
-      </main>
+      </div>
    );
 };
 
