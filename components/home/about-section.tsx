@@ -13,22 +13,27 @@ const About = ({
    without_title?: boolean;
 }) => {
    return (
-      <div className="relative pt-16 lg:pb-36 container !px-0 overflow-hidden">
+      <div className="relative pt-16 lg:pb-20 container !px-0 overflow-hidden">
          {!without_title && (
-            <div className="text-3xl sm:text-5xl font-bold text-center sm:pt-24 z-20">
+            <h2 className="text-3xl sm:text-5xl font-bold text-center sm:pt-24 z-20">
                {config.heading}
-            </div>
+            </h2>
          )}
-         <div className="w-full pb-20 lg:pb-5 pt-20 container overflow-hidden px-10 flex lg:space-x-24 items-center">
+         <div className="w-full pb-20 lg:pb-5 pt-20 container overflow-hidden px-10 flex lg:space-x-24 items-start">
             <div className="flex flex-col space-y-7 w-full sm:w-3/4 md:w-3/5 z-0 lg:delay-300">
                <AnimateOnScroll animateIn={animations.about_text}>
+                  {without_title && (
+                     <h2 className="text-3xl sm:text-5xl pb-8 font-bold z-20">
+                        {config.heading}
+                     </h2>
+                  )}
                   <div className="flex flex-col space-y-10">
                      {config.features.map((feature) => (
                         <div
                            className="flex flex-col space-y-4"
                            key={feature.title}
                         >
-                           <h2 className="text-2xl xl:text-4xl font-bold">
+                           <h2 className="text-2xl xl:text-4xl font-semibold">
                               {feature.title}
                            </h2>
                            <span className="text-sm lg:text-base opacity-85 font-semibold">
@@ -55,9 +60,7 @@ const About = ({
                </AnimateOnScroll>
             </div>
          </div>
-         <ImageStrip
-            images={config.image_strip}
-         />
+         <ImageStrip images={config.image_strip} />
       </div>
    );
 };

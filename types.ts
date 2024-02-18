@@ -65,7 +65,7 @@ export interface ContactConfig {
 }
 
 export interface ExpConfig {
-   exp: { bold: string; title: string }[];
+   exp: { bold: number; title: string }[];
 }
 
 export interface Config {

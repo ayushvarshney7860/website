@@ -54,9 +54,9 @@ export default function RootLayout({
                   <NavBar config={global_config.navbar} />
                   <Social config={global_config.social} />
                   <ParallaxProviders>
-                     <div className="p-0 mt-16 h-full w-full overflow-hidden">
+                     <main className="p-0 mt-16 h-full w-full overflow-hidden">
                         {children}
-                     </div>
+                     </main>
                   </ParallaxProviders>
                   <Footer config={global_config.footer} />
                </div>
