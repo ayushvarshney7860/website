@@ -36,3 +36,8 @@ Note - Remove all the unecessary images from the public folder
 - open `git bash`
 - run `npm run convert`
 - All the images will be converted to their webp counterparts.
+
+## To change the color scheme
+
+- Goto `globals.css` file.
+- change the colors and them commit.

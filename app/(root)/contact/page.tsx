@@ -64,17 +64,10 @@ const Contact = () => {
                animations.contact_form
             )}
          >
-            <div className="pb-16 sm:pb-32 px-0 xs:px-5 sm:px-10 flex space-x-5 lg:space-x-8 w-full">
+            <div className="pb-16 sm:pb-32 px-0 xs:px-5 sm:px-10 flex space-x-5 lg:space-x-8 w-full justify-center">
                <div className="w-full md:w-2/3">
                   <ContactCard config={configs.contact_form} />
                </div>
-               <Image
-                  src={configs.image}
-                  alt="equire-image"
-                  width={200}
-                  height={200}
-                  className="object-cover w-1/3 rounded-lg hidden md:block"
-               />
             </div>
          </div>
       </div>

@@ -155,20 +155,20 @@ const config: Config = {
          {
             name: "Email",
             icon: "/assets/icons/envelope.svg",
-            description: "something@something.com",
-            href: "mailto:something@something.com",
+            description: "highpixelzone1@gmail.com",
+            href: "mailto:highpixelzone1@gmail.com",
          },
          {
             name: "Phone",
             icon: "/assets/icons/phone.svg",
-            description: "1234567890",
-            href: "tel:1234567890",
+            description: "911868837, 9369720710",
+            href: "tel:911868837",
          },
          {
             name: "Office",
             icon: "/assets/icons/location-pin.svg",
-            description: "Regional Science City",
-            href: "https://maps.app.goo.gl/Ny32o2zsp6oq96RW9",
+            description: "Rajajipuram, Lucknow",
+            href: "https://maps.app.goo.gl/1sd3H19MEk9Ed2qRA"
          },
       ],
       contact_form: {
@@ -176,13 +176,13 @@ const config: Config = {
          description: "We would love to hear from you!",
          submit_button: "Submit",
          formAction:
-            "https://docs.google.com/forms/d/e/1FAIpQLSfKvYVRISRbvhrqDMjBXxEGS6UagqQP2BsMuMiHBPD5FuvOeA/formResponse",
+            "https://docs.google.com/forms/d/e/1FAIpQLScwlWjFeM9aERDHRLK7delArA7Yn133gta5sEwDS1ydOYkELQ/formResponse",
          submission_text: "Your enquiry has been sent.",
          form_fields: {
-            name: "entry.136349079",
+            name: "entry.100873565",
             email: "emailAddress",
-            phone: "entry.1362874737",
-            message: "entry.816284549",
+            phone: "entry.1894660412",
+            message: "entry.46392351",
          },
       },
    },

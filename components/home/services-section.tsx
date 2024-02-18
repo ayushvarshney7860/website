@@ -14,7 +14,7 @@ const Services = ({
    animations: ServiceAnimationConfig;
 }) => {
    return (
-      <div className="w-full min-h-screen container pt-16 pb-24 px-10 flex flex-col space-y-3 md:space-y-12 items-center relative bg-background">
+      <div className="w-full bg-[#f4f0ed] dark:bg-secondary min-h-screen container pt-16 pb-24 px-10 flex flex-col space-y-3 md:space-y-12 items-center relative bg-background">
          <div className="flex flex-col space-y-4 items-center max-w-[700px]">
             <div className="font-semibold">{config.top_heading}</div>
             <h1 className="inline text-3xl sm:text-5xl font-bold text-center">

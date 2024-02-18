@@ -13,7 +13,7 @@ const GetInTouch = ({
 }) => {
    return (
       <>
-         <div className="w-full container pb-16 sm:pb-20 px-10 flex flex-col space-y-7 sm:flex-row sm:space-y-0 sm:space-x-8 lg:space-x-24 items-center justify-center relative">
+         <div className="w-full bg-[#f4f0ed] dark:bg-secondary container pb-16 pt-10 sm:pb-20 px-10 flex flex-col space-y-7 sm:flex-row sm:space-y-0 sm:space-x-8 lg:space-x-24 items-center justify-center relative">
             <AnimateOnScroll
                animateIn={animations.heading}
                className="sm:px-8 flex flex-col text-center max-w-[350px] sm:max-w-[unset] sm:text-start space-y-2 sm:space-y-3 sm:w-3/5"
@@ -59,19 +59,12 @@ const GetInTouch = ({
          </div>
          <AnimateOnScroll
             animateIn={animations.contact_form}
-            className="container w-full"
+            className="container w-full mt-10"
          >
-            <div className="pb-16 sm:pb-32 px-0 xs:px-5 sm:px-10 flex space-x-5 lg:space-x-8 w-full">
+            <div className="pb-16 sm:pb-32 px-0 xs:px-5 sm:px-10 flex space-x-5 lg:space-x-8 w-full items-center justify-center">
                <div className="w-full md:w-2/3">
                   <ContactCard config={config.contact_form}/>
                </div>
-               <Image
-                  src={config.image}
-                  alt="equire-image"
-                  width={200}
-                  height={200}
-                  className="object-cover w-1/3 rounded-lg hidden md:block"
-               />
             </div>
          </AnimateOnScroll>
       </>
