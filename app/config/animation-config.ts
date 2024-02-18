@@ -54,6 +54,8 @@ export const globalAnimations: GlobalAnimationConfig = {
    animateOut: "",
    image_strip: {
       animation: "animate__fadeInUp",
+      delay: 2000,
+      loop: true,
       left_to_right: false,
    },
 };

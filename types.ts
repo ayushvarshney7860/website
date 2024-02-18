@@ -221,6 +221,8 @@ export interface GlobalAnimationConfig {
    animateOut: string;
    image_strip: {
       animation: string;
+      delay: number;
+      loop: boolean;
       left_to_right: boolean;
    };
 }
