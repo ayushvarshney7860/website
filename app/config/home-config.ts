@@ -2,7 +2,7 @@ import { Config } from "@/types";
 
 const config: Config = {
    home: {
-      featured_text: "Something Moments That Last A Lifetime",
+      featured_text: "Capturing Moments That Last A Lifetime",
       featured_description:
          "Welcome to our photography portfolio. Where every picture tells a story.",
       featured_image: "/assets/home-landing/something.jpg",
@@ -62,14 +62,14 @@ const config: Config = {
       image: "/assets/dummy.jpg",
       features: [
          {
-            title: "Cutting-edge photography equipments",
+            title: "Passion for Perfection",
             description:
-               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos autem impedit tempora fugit? Dolorem ipsa explicabo ipsum laborum id.",
+               "Our team of skilled photographers is driven by a passion for capturing the essence of love. We believe in telling your unique story through the lens, ensuring that every photograph reflects the genuine emotions and joy of your special day.",
          },
          {
-            title: "Unique and creative style",
+            title: "Experienced Professionals",
             description:
-               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos autem impedit tempora fugit? Dolorem ipsa explicabo ipsum laborum id.",
+               "With years of experience in the wedding photography industry, our team is well-versed in navigating the intricacies of a wedding day. We seamlessly blend into the background, allowing you to relish every moment while we capture the magic as it unfolds.",
          },
          {
             title: "Special packages",

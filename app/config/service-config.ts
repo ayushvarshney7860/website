@@ -5,9 +5,9 @@ const config: ServicePageConfig = {
    align_text_in_opposite_directions: false,
    services: [
       {
-         title: "Wedding",
+         title: "Destination Weddings",
          description:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, blanditiis, ut consequuntur saepe quidem omnis natus alias perferendis libero dolor magni soluta temporibus eligendi asperiores voluptas. Totam quae ullam inventore aliquid consequuntur sunt porro recusandae fuga explicabo ipsam dolorum autem officiis, sequi assumenda? Illo mollitia itaque eius alias voluptatem. Perferendis, animi. Magnam, eaque unde explicabo mollitia minima distinctio provident vero repellendus temporibus saepe tempora ullam ut animi.",
+            "Make your dream destination wedding a reality with our specialized services. Whether you're planning a serene beach wedding or a royal palace celebration, our team is equipped to travel anywhere to capture the magic of your destination wedding.",
          image: "/assets/dummy.jpg",
          image_strip: [
             "/assets/dummy.jpg",
@@ -23,9 +23,9 @@ const config: ServicePageConfig = {
          ],
       },
       {
-         title: "Wedding",
+         title: "Pre-Wedding Shoots",
          description:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, blanditiis, ut consequuntur saepe quidem omnis natus alias perferendis libero dolor magni soluta temporibus eligendi asperiores voluptas. Totam quae ullam inventore aliquid consequuntur sunt porro recusandae fuga explicabo ipsam dolorum autem officiis, sequi assumenda? Illo mollitia itaque eius alias voluptatem. Perferendis, animi. Magnam, eaque unde explicabo mollitia minima distinctio provident vero repellendus temporibus saepe tempora ullam ut animi.",
+            "Celebrate the journey to your big day with a pre-wedding photoshoot. Choose from picturesque locations and let our photographers capture your love in a more intimate setting. The result is a collection of stunning images that add a personal touch to your wedding story.",
          image: "/assets/something.jpg",
          image_strip: [
             "/assets/dummy.jpg",
@@ -41,9 +41,9 @@ const config: ServicePageConfig = {
          ],
       },
       {
-         title: "Wedding",
+         title: "Album Design and Printing",
          description:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, blanditiis, ut consequuntur saepe quidem omnis natus alias perferendis libero dolor magni soluta temporibus eligendi asperiores voluptas. Totam quae ullam inventore aliquid consequuntur sunt porro recusandae fuga explicabo ipsam dolorum autem officiis, sequi assumenda? Illo mollitia itaque eius alias voluptatem. Perferendis, animi. Magnam, eaque unde explicabo mollitia minima distinctio provident vero repellendus temporibus saepe tempora ullam ut animi.",
+            "Transform your memories into tangible treasures with our expertly designed wedding albums. Our team crafts personalized albums that showcase the beauty and emotion of your wedding day, creating a timeless keepsake for you and your loved ones.",
          image: "/assets/dummy.jpg",
          image_strip: [
             "/assets/dummy.jpg",
