@@ -30,11 +30,11 @@ const config: OurWorksPageConfig = {
       {
          name: "Haldi",
          images: [
-            "/assets/something.jpg",
-            "/assets/something.jpg",
-            "/assets/dummy.jpg",
-            "/assets/dummy.jpg",
-            "/assets/dummy.jpg",
+            "/assets/h1.webp",
+            "/assets/h2.webp",
+            "/assets/h3.webp",
+            "/assets/h4.webp",
+            "/assets/h5.webp",
             "/assets/something.jpg",
             "/assets/dummy.jpg",
             "/assets/something.jpg",
