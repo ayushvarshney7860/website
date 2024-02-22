@@ -2,9 +2,9 @@ import { Config } from "@/types";
 
 const config: Config = {
    home: {
-      featured_text: "Capturing Moments That Last A Lifetime",
+      featured_text: "YOUR STORY OUR LENSE",
       featured_description:
-         "Welcome to our photography portfolio. Where every picture tells a story.",
+         "Welcome to HighPixelZone where we capture the moments you cherish.",
       featured_image: "/assets/home-landing/front.webp",
       image_strip: [
          "/assets/home-landing/1.webp",
@@ -26,31 +26,31 @@ const config: Config = {
       ],
    },
    services: {
-      top_heading: "Capturing",
-      heading: "Unforgettable Moments through The Lens",
+      top_heading: "",
+      heading: "Your vision, Our expertise ",
       description:
-         "We offer a tange of photography services including weddings portraits and commercial Our team Of expenenced photographers is dedicated captunng the essence Of every moment ensunng that your memories are preserved for a lifetime.",
+         "From pre - wedding to maternity shoots, our team is dedicated towards capturing each moment with extreme dedication  to captivate the beauty of the magical moment of your life.",
       featured_video: "nvpWVVKFwl8",
-      featured_title: "Videos to make it Memorable",
+      featured_title: "Videos to make it memorable",
       featured_description:
-         "We offer a tange of photography services including weddings portraits and commercial Our team Of expenenced photographers is dedicated captunng the essence Of every moment ensunng that your memories are preserved for a lifetime.",
+         "Services That We Provide.",
       services_details: [
          {
-            title: "Weddings That Tell Your Love Story",
+            title: "Pre-Wedding",
             description:
-               "Our wedding services are capture the moments and emotions of your special day, creating a beautiful narrative that tells your Love story.",
+               "Pre Fun!!Let's capture your love story or arranged-love story with lights and laughter through our lense.. celebrate the little moments before the big day with our amazing pre wedding videos,reels & photographs",
             image: "/assets/dummy.jpg",
          },
          {
-            title: "Weddings That Tell Your Love Storys",
+            title: "The Big Big Dayy!!",
             description:
-               "Our wedding services are capture the moments and emotions of your special day, creating a beautiful narrative that tells your Love story.",
+               "Love, laughter,fun & chaos all captured in a single frame,from smiles of happiness to tears of separation we'll  have it all covered through our camera just for you to cherish each moment.",
             image: "/assets/dummy.jpg",
          },
          {
-            title: "Weddings That Tell Your Love Stories",
+            title: "Maternity Shoot  ",
             description:
-               "Our wedding services are capture the moments and emotions of your special day, creating a beautiful narrative that tells your Love story.",
+               "As the love blooms & the adventures begin..creating a miracle who's everyone's 1st priority, for morning sickness to maternity glow we'll capture it all for you to cherish",
             image: "/assets/dummy.jpg",
          },
       ],
@@ -69,7 +69,7 @@ const config: Config = {
          {
             title: "Experienced Professionals",
             description:
-               "With years of experience in the wedding photography industry, our team is well-versed in navigating the intricacies of a wedding day. We seamlessly blend into the background, allowing you to relish every moment while we capture the magic as it unfolds.",
+               "With years of experience in photography, our team is well- versed in navigating through the intricacy of a wedding day, we seamlessly blend into the event,capturing every moment as the magic unfolds so that you can relish each one of them.",
          },
          {
             title: "Special packages",
@@ -97,11 +97,11 @@ const config: Config = {
             title: "Years of experience",
          },
          {
-            bold: 100,
+            bold: 10000,
             title: "Photoshoots",
          },
          {
-            bold: 1500,
+            bold: 5000,
             title: "Happy Customers",
          },
       ],
@@ -152,7 +152,7 @@ const config: Config = {
       ],
    },
    getInTouch: {
-      top_heading: "Capturing Moments",
+      top_heading: "Capturing your story through our lens",
       heading: "Get in Touch",
       description:
          "We would love to hear from you, Contact us for any inquiries or bookings",
