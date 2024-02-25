@@ -39,19 +39,19 @@ const config: Config = {
             title: "Pre-Wedding",
             description:
                "Pre Fun!!Let's capture your love story or arranged-love story with lights and laughter through our lense.. celebrate the little moments before the big day with our amazing pre wedding videos,reels & photographs",
-            image: "/assets/dummy.jpg",
+            image: "/assets/14.webp",
          },
          {
             title: "The Big Big Dayy!!",
             description:
                "Love, laughter,fun & chaos all captured in a single frame,from smiles of happiness to tears of separation we'll  have it all covered through our camera just for you to cherish each moment.",
-            image: "/assets/dummy.jpg",
+            image: "/assets/15.webp",
          },
          {
             title: "Maternity Shoot  ",
             description:
                "As the love blooms & the adventures begin..creating a miracle who's everyone's 1st priority, for morning sickness to maternity glow we'll capture it all for you to cherish",
-            image: "/assets/dummy.jpg",
+            image: "/assets/16.webp",
          },
       ],
       know_more_btn_text: "Know More",
