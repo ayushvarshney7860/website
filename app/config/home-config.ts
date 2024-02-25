@@ -59,7 +59,7 @@ const config: Config = {
    },
    about: {
       heading: "Why Choose Us ?",
-      image: "/assets/dummy.jpg",
+      image: "/assets/2K4A7083.webp",
       features: [
          {
             title: "Passion for Perfection",
