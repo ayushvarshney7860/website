@@ -111,43 +111,43 @@ const config: Config = {
       sub_heading: "50+ Satisfied Customers",
       testimonials: [
          {
-            stars: 2.5,
+            stars: 4,
             description:
-               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati nobis quidem fugiat corporis commodi vitae, exercitationem mollitia iste eum ullam, minima harum consequuntur optio qui ea voluptate, nostrum libero totam saepe eos! Dolorem?",
-            imageUrl: "/assets/dummy.jpg",
-            name: "Arjun Varshney",
+               "The work done by these guys are commendable. They have awesome photography and cinematography skills. Most and must recommended by me. They are doing great work and I hope they will be on top of everyone.",
+            imageUrl: "/assets/2K4A7132.webp",
+            name: "Shubham Varshney",
             date: "Feb 2024",
          },{
-            stars: 2.5,
+            stars: 4.5,
             description:
-               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati nobis quidem fugiat corporis commodi vitae, exercitationem mollitia iste eum ullam, minima harum consequuntur optio qui ea voluptate, nostrum libero totam saepe eos! Dolorem?",
-            imageUrl: "/assets/person.jpg",
-            name: "Arjun Varshney",
-            date: "Feb 2024",
+               "Best photography n they captured my special moment most beautifully....I luv itt .....",
+            imageUrl: "/assets/0V8A7351-min.jpg",
+            name: "Shreya Chandra",
+            date: "January 2024",
          },
          {
             stars: 4.5,
             description:
-               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati nobis quidem fugiat corporis commodi vitae, exercitationem mollitia iste eum ullam, minima harum consequuntur optio qui ea voluptate, nostrum libero totam saepe eos! Dolorem?",
+               "Great teams comes with the great management. Amazing work by them. Starting from the booking, pre discussions, covering the event, then post delivery, all was so easy with them. Got amazing pictures and album is so cherishing. 10/10✨",
             imageUrl: "/assets/dummy.jpg",
-            name: "Arjun Varshney",
-            date: "Mar 2024",
+            name: "Akash Verma",
+            date: "January 2024",
          },
          {
             stars: 4.5,
             description:
-               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati nobis quidem fugiat corporis commodi vitae, exercitationem mollitia iste eum ullam, minima harum consequuntur optio qui ea voluptate, nostrum libero totam saepe eos! Dolorem?",
+               "The team is very professional and knowledgeable. Our wedding photos came out really good and the videos were also very professionally edited. The deliverables were on time. They have many options for wedding album as well. We found the package value for money.",
             imageUrl: "/assets/dummy.jpg",
-            name: "Arjun Varshney",
+            name: "Manas Gupta",
+            date: "Dec 2023",
+         },
+         {
+            stars: 4.5,
+            description:
+               "Had a wonderful experience High Pixel Zone, The team is exceptionally professional and they have handled all the requests wonderfully. All the photographers are absolutely professional , specially AV and his team. Thankyou for the wonderful experience!",
+            imageUrl: "/assets/dummy.jpg",
+            name: "Lalit Kumar",
             date: "Feb 2023",
-         },
-         {
-            stars: 4.5,
-            description:
-               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati nobis quidem fugiat corporis commodi vitae, exercitationem mollitia iste eum ullam, minima harum consequuntur optio qui ea voluptate, nostrum libero totam saepe eos! Dolorem?",
-            imageUrl: "/assets/dummy.jpg",
-            name: "Arjun Varshney",
-            date: "Feb 2022",
          },
       ],
    },
@@ -167,8 +167,8 @@ const config: Config = {
          {
             name: "Phone",
             icon: "/assets/icons/phone.svg",
-            description: "911868837, 9369720710",
-            href: "tel:911868837",
+            description: "9118688337, 9369720710",
+            href: "tel:9118688337",
          },
          {
             name: "Office",
