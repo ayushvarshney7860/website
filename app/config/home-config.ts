@@ -93,11 +93,11 @@ const config: Config = {
    experience: {
       exp: [
          {
-            bold: 10,
+            bold: 9,
             title: "Years of experience",
          },
          {
-            bold: 10000,
+            bold: 7000,
             title: "Photoshoots",
          },
          {

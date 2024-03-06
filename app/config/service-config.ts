@@ -5,7 +5,7 @@ const config: ServicePageConfig = {
    align_text_in_opposite_directions: false,
    services: [
       {
-         title: "Destination Weddings",
+         title: "Wedding Shoots",
          description:
             "Make your dream destination wedding a reality with our specialized services. Whether you're planning a serene beach wedding or a royal palace celebration, our team is equipped to travel anywhere to capture the magic of your destination wedding.",
          image: "/assets/dummy.jpg",
@@ -26,7 +26,7 @@ const config: ServicePageConfig = {
          title: "Pre-Wedding Shoots",
          description:
             "Celebrate the journey to your big day with a pre-wedding photoshoot. Choose from picturesque locations and let our photographers capture your love in a more intimate setting. The result is a collection of stunning images that add a personal touch to your wedding story.",
-         image: "/assets/something.jpg",
+         image: "/assets/pre/pre wedding main.jpg",
          image_strip: [
             "/assets/dummy.jpg",
             "/assets/something.jpg",
