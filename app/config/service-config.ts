@@ -8,7 +8,7 @@ const config: ServicePageConfig = {
          title: "Wedding Shoots",
          description:
             "Make your dream destination wedding a reality with our specialized services. Whether you're planning a serene beach wedding or a royal palace celebration, our team is equipped to travel anywhere to capture the magic of your destination wedding.",
-         image: "/assets/dummy.jpg",
+         image: "/assets/DSC01316xz.jpg",
          image_strip: [
             "/assets/dummy.jpg",
             "/assets/something.jpg",
