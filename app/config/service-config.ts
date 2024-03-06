@@ -29,7 +29,7 @@ const config: ServicePageConfig = {
          image: "/assets/pre/pre wedding main.webp",
          image_strip: [
             "/assets/pre/b (1).webp",
-            "/assets/pre/b (2).webp",
+            "/assets/pre/b3.webp",
             "/assets/pre/b (3).webp",
             "/assets/pre/b (4).webp",
             "/assets/pre/b (5).webp",
@@ -38,6 +38,7 @@ const config: ServicePageConfig = {
             "/assets/pre/b (8).webp",
             "/assets/pre/b (9).webp",
             "/assets/pre/9.webp",
+            "/assets/pre/b (10).webp",
          ],
       },
       {
