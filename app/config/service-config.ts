@@ -30,7 +30,6 @@ const config: ServicePageConfig = {
          image_strip: [
             "/assets/pre/b (1).webp",
             "/assets/pre/b3.webp",
-            "/assets/pre/b (3).webp",
             "/assets/pre/b (4).webp",
             "/assets/pre/b (5).webp",
             "/assets/pre/b (6).webp",
