@@ -129,7 +129,7 @@ const config: Config = {
             stars: 4.5,
             description:
                "Great teams comes with the great management. Amazing work by them. Starting from the booking, pre discussions, covering the event, then post delivery, all was so easy with them. Got amazing pictures and album is so cherishing. 10/10✨",
-            imageUrl: "/assets/dummy.jpg",
+            imageUrl: "/assets/akash.png",
             name: "Akash Verma",
             date: "January 2024",
          },
