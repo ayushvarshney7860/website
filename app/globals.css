@@ -6,6 +6,18 @@
    @apply w-full max-w-[1400px] mx-auto px-5 xs:px-8;
 }
 
+#t-n-c .et_pb_text_inner {
+   @apply my-3;
+}
+
+#t-n-c h3 {
+   @apply text-xl font-bold;
+}
+
+#t-n-c p {
+   @apply my-2;
+}
+
 @layer base {
    :root {
       --background: 0 0% 100%;
