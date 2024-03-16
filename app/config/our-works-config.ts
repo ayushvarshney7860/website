@@ -70,7 +70,6 @@ const config: OurWorksPageConfig = {
             "/assets/our work/pre wed/a (10).webp",
             "/assets/our work/pre wed/a (1).webp",
             "/assets/our work/pre wed/c (1).webp",
-            "/assets/our work/pre wed/c (2).webp",
             "/assets/our work/pre wed/c (3).webp",
             "/assets/our work/pre wed/c (4).webp",
             "/assets/our work/pre wed/c (5).webp",
