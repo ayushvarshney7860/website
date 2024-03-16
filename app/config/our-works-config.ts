@@ -52,7 +52,6 @@ const config: OurWorksPageConfig = {
             "/assets/our work/wed/12 (3).webp",
             "/assets/our work/wed/12 (4).webp",
             "/assets/our work/wed/12 (5).webp",
-            "/assets/our work/wed/12 (6).webp",
             "/assets/our work/wed/12 (7).webp",
          ],
       },
