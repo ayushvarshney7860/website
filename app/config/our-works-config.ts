@@ -81,17 +81,11 @@ const config: OurWorksPageConfig = {
    ],
    video_category: "Videos",
    videos: [
-      "OGy_0tzRwPQ",
-      "OGy_0tzRwPQ",
-      "QAumQUsqwtw",
-      "nvpWVVKFwl8",
       "WqrI-pZPE9s",
-      "PUZ-d7QE3X8",
       "UQ4xmxFVlVw",
       "s3y8AYcMkXw",
-      "NIkqJZyVfYI",
-      "5Z1vl4DgHXY",
-      "A0sVt42gS44",
+      "PUZ-d7QE3X8"
+      
    ],
 };
 
