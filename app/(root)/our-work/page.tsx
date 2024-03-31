@@ -6,12 +6,7 @@ import { cn } from "@/lib/utils";
 import { PlayCircle } from "lucide-react";
 import Image from "next/image";
 import sizeOf from "image-size";
-import { Key } from "react";
-import {
-   Carousel,
-   CarouselContent,
-   CarouselItem,
-} from "@/components/ui/carousel";
+import ImageGallery from "@/components/image-gallery";
 
 const OurWork = () => {
    function divideImages(imagePaths: string[]) {
@@ -63,49 +58,7 @@ const OurWork = () => {
                   className="grid grid-cols-3 gap-1"
                   key={category.name}
                >
-                  {divideImages(category.images).map((images, index) => (
-                     <div className="flex flex-col w-full gap-1" key={index}>
-                        {images.map(
-                           (image: string, index: Key | null | undefined) => (
-                              <Drawer key={index}>
-                                 <DrawerTrigger>
-                                    <Image
-                                       src={image}
-                                       alt={"sample-image"}
-                                       height={500}
-                                       width={500}
-                                       className="hover:scale-105 transition-all rounded w-full"
-                                    />
-                                 </DrawerTrigger>
-                                 <DrawerContent className="h-[90%]">
-                                    <Carousel
-                                       opts={{
-                                          startIndex:
-                                             category.images.indexOf(image),
-                                       }}
-                                       className="h-[calc(100%-24px)] pt-4 w-full"
-                                    >
-                                       <CarouselContent className="items-center h-full">
-                                          {category.images.map((image, index) => (
-                                             <CarouselItem className="h-full pl-0 w-full mx-auto flex items-center" key={index}>
-                                                <Image
-                                                   src={image}
-                                                   alt={"sample-image"}
-                                                   height={1500}
-                                                   width={1500}
-                                                   key={index}
-                                                   className="transition-all rounded max-h-full w-full object-contain my-auto"
-                                                />
-                                             </CarouselItem>
-                                          ))}
-                                       </CarouselContent>
-                                    </Carousel>
-                                 </DrawerContent>
-                              </Drawer>
-                           )
-                        )}
-                     </div>
-                  ))}
+                  <ImageGallery dividedImages={divideImages(category.images)}/>
                </TabsContent>
             ))}
             <TabsContent
