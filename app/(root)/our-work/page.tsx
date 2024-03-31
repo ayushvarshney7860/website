@@ -5,18 +5,23 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from "@/lib/utils";
 import { PlayCircle } from "lucide-react";
 import Image from "next/image";
-import { Key } from "react";
+import sizeOf from "image-size";
+import ImageGallery from "@/components/image-gallery";
 
 const OurWork = () => {
-   function divideArrayEqually(arr: any[], numArrays: number) {
-      const dividedArrays = [];
-      const itemsPerArray = Math.ceil(arr.length / numArrays);
+   function divideImages(imagePaths: string[]) {
+      let colHeights: [number, number, number] = [0, 0, 0];
+      const columnImages: [string[], string[], string[]] = [[], [], []];
 
-      for (let i = 0; i < arr.length; i += itemsPerArray) {
-         dividedArrays.push(arr.slice(i, i + itemsPerArray));
-      }
+      imagePaths.forEach((path) => {
+         let shortestColumnIndex = colHeights.indexOf(Math.min(...colHeights));
+         columnImages[shortestColumnIndex].push(path);
 
-      return dividedArrays;
+         let img = sizeOf(process.cwd() + "/public" + path);
+         colHeights[shortestColumnIndex] += img.height! / img.width!;
+      });
+
+      return columnImages;
    }
    return (
       <div className="container pb-20">
@@ -53,40 +58,7 @@ const OurWork = () => {
                   className="grid grid-cols-3 gap-1"
                   key={category.name}
                >
-                  {divideArrayEqually(category.images, 3).map(
-                     (images, index) => (
-                        <div className="flex flex-col w-full gap-1" key={index}>
-                           {images.map(
-                              (
-                                 image: string,
-                                 index: Key | null | undefined
-                              ) => (
-                                 <Drawer key={index}>
-                                    <DrawerTrigger>
-                                       <Image
-                                          src={image}
-                                          alt={"sample-image"}
-                                          height={300}
-                                          width={300}
-                                          className="hover:scale-105 transition-all rounded w-full"
-                                       />
-                                    </DrawerTrigger>
-                                    <DrawerContent className="h-[90%]">
-                                       <Image
-                                          src={image}
-                                          alt={"sample-image"}
-                                          height={700}
-                                          width={700}
-                                          key={index}
-                                          className="transition-all rounded h-[calc(100%-48px)] w-full object-contain my-auto"
-                                       />
-                                    </DrawerContent>
-                                 </Drawer>
-                              )
-                           )}
-                        </div>
-                     )
-                  )}
+                  <ImageGallery dividedImages={divideImages(category.images)}/>
                </TabsContent>
             ))}
             <TabsContent
