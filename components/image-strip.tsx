@@ -11,8 +11,12 @@ import {
    CarouselPrevious,
 } from "./ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
+import { Drawer, DrawerContent, DrawerTrigger } from "./ui/drawer";
+import { useState } from "react";
 
 const ImageStrip = ({ images }: { images: string[] }) => {
+   const [open, setOpen] = useState(false);
+   const [index, setIndex] = useState(0);
    return (
       <div
          className={cn(
@@ -40,6 +44,10 @@ const ImageStrip = ({ images }: { images: string[] }) => {
                         height={300}
                         width={300}
                         className="h-32 w-32 lg:h-40 lg:w-40 object-cover aspect-square rounded"
+                        onClick={() => {
+                           setOpen(true);
+                           setIndex(index);
+                        }}
                      />
                   </CarouselItem>
                ))}
@@ -47,6 +55,35 @@ const ImageStrip = ({ images }: { images: string[] }) => {
             <CarouselPrevious />
             <CarouselNext />
          </Carousel>
+         <Drawer open={open} onOpenChange={(open) => setOpen(open)}>
+            <DrawerContent className="h-[90%]">
+               <Carousel
+                  opts={{
+                     startIndex: index,
+                     loop: true,
+                  }}
+                  className="h-[calc(100%-24px)] pt-4 w-full"
+               >
+                  <CarouselContent className="items-center h-full">
+                     {images.map((image, index) => (
+                        <CarouselItem
+                           className="h-full pl-0 w-full mx-auto flex items-center"
+                           key={index}
+                        >
+                           <Image
+                              src={image}
+                              alt={"sample-image"}
+                              height={1500}
+                              width={1500}
+                              key={index}
+                              className="transition-all rounded max-h-full w-full object-contain my-auto"
+                           />
+                        </CarouselItem>
+                     ))}
+                  </CarouselContent>
+               </Carousel>
+            </DrawerContent>
+         </Drawer>
       </div>
    );
 };
