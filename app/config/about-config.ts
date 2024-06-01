@@ -5,7 +5,7 @@ const about_config: AboutPageConfig = {
       about_text: "About Us",
       about_description:
          "Our experienced and the best wedding photographer in Lucknow take immense care to capture the details of your wedding day. Portraits or close-ups, whichever pose, seem perfect for the moment we capture it. The most beautiful memories are captured through our lenses. In brief, we have a team of the most professional & Best Photographers in Lucknow.",
-      image: "/assets/dummy.jpg",
+      image: "/assets/12 (6).webp",
    },
    history_and_mission: {
       history_text: "Our Story",
