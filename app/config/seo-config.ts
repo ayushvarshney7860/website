@@ -13,7 +13,7 @@ const seo_config: Metadata = {
          "High Pixel Zone is a photography business which can preserve your memories as photos and videos.",
       images: [
          {
-            url: "https://highpixelzone.com/logo.svg",
+            url: "https://highpixelzone.com/logo.png",
          },
       ],
    },
