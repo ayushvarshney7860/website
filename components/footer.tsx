@@ -30,15 +30,15 @@ const Footer = ({ config }: { config: FooterConfig }) => {
       <footer className="w-full container px-0 sm:px-8 pb-16 sm:pb-5 pt-10 flex flex-col items-center">
          <Link
             href={"/"}
-            className="text-xl font-semibold flex gap-x-2 py-2 px-2 items-center"
+            className="text-xl font-semibold flex gap-x-2 px-2 items-center"
          >
             <div className="rounded-lg">
                <Image
                   src={config.logo}
                   alt="logo"
                   height={32}
-                  width={32}
-                  className={cn(config.invert_logo_on_dark && "dark:invert")}
+                  width={200}
+                  className={cn("invert", config.invert_logo_on_dark && "dark:invert-0")}
                />
             </div>
             {config.title}

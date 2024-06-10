@@ -7,8 +7,8 @@ const global_config: GlobalConfig = {
    learn_more_btn_href: "/services",
    navbar: {
       book_btn_href: "/contact",
-      title: "HighPixelZone",
-      logo: "/logo.svg",
+      title: "",
+      logo: "/logo.png",
       invert_logo_on_dark: true,
       routes: [
          {
@@ -58,8 +58,8 @@ const global_config: GlobalConfig = {
       ],
    },
    footer: {
-      title: "HighPixelZone",
-      logo: "/logo.svg",
+      title: "",
+      logo: "/logo.png",
       invert_logo_on_dark: true,
       links: [
          {
