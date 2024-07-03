@@ -17,12 +17,12 @@ const Services = ({
       <div className="w-full bg-[#f4f0ed] dark:bg-secondary min-h-screen container pt-16 pb-24 px-10 flex flex-col space-y-3 md:space-y-12 items-center relative bg-background">
          <div className="flex flex-col space-y-4 items-center max-w-[700px]">
             <div className="font-semibold">{config.top_heading}</div>
-            <h1 className="inline text-3xl sm:text-5xl font-bold text-center">
+            <h3 className="inline text-3xl sm:text-5xl font-bold text-center">
                {config.heading}
-            </h1>
-            <span className="text-center text-base sm:text-lg pt-3">
+            </h3>
+            <p className="text-center text-base sm:text-lg pt-3">
                {config.description}
-            </span>
+            </p>
          </div>
          <div className="flex flex-col space-y-5 items-center">
             <AnimateOnScroll
@@ -39,12 +39,12 @@ const Services = ({
                      allowFullScreen
                      className="object-cover rounded-lg aspect-video w-full h-full border"
                   ></iframe>
-                  <h2 className="text-lg lg:text-3xl font-bold max-w-[95%]">
+                  <h2 className="text-lg pt-10 lg:text-3xl font-bold max-w-[95%]">
                      {config.featured_title}
                   </h2>
-                  <div className="text-sm lg:text-lg opacity-75 max-w-[95%]">
+                  <p className="text-sm lg:text-lg opacity-75 max-w-[95%]">
                      {config.featured_description}
-                  </div>
+                  </p>
                </div>
             </AnimateOnScroll>
             <div className="flex flex-wrap md:space-x-5 pt-3 justify-center">

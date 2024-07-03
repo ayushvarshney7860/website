@@ -25,9 +25,9 @@ const ServiceCard = ({
             <h2 className="text-lg lg:text-3xl font-bold max-w-[95%]">
                {title}
             </h2>
-            <div className="text-sm lg:text-lg opacity-75 max-w-[95%]">
+            <p className="text-sm lg:text-lg opacity-75 max-w-[95%]">
                {description}
-            </div>
+            </p>
          </div>
       </AnimateOnScroll>
    );
