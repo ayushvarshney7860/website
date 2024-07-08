@@ -64,9 +64,10 @@ const Navbar = ({ config }: { config: NavbarConfig }) => {
                         src={config.logo}
                         alt="logo"
                         height={32}
-                        width={32}
+                        width={150}
                         className={cn(
-                           config.invert_logo_on_dark && "dark:invert"
+                           "invert",
+                           config.invert_logo_on_dark && "dark:invert-0"
                         )}
                      />
                   </div>

@@ -13,7 +13,7 @@ const seo_config: Metadata = {
          "HighPixelZone is the Best Professional Wedding Photographers Lucknow Near me Wedding Photography, Engagement, Pre-wedding, Reception, Anniversary.",
       images: [
          {
-            url: "https://highpixelzone.com/logo.svg",
+            url: "https://highpixelzone.com/logo.png",
          },
       ],
    },
