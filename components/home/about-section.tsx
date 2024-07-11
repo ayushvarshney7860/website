@@ -22,11 +22,6 @@ const About = ({
          <div className="w-full pb-20 lg:pb-5 pt-20 container overflow-hidden px-10 flex lg:space-x-24 items-start">
             <div className="flex flex-col space-y-7 w-full sm:w-3/4 md:w-3/5 z-0 lg:delay-300">
                <AnimateOnScroll animateIn={animations.about_text}>
-                  {without_title && (
-                     <h2 className="text-3xl sm:text-5xl pb-8 font-bold z-20">
-                        {config.heading}
-                     </h2>
-                  )}
                   <div className="flex flex-col space-y-10">
                      {config.features.map((feature) => (
                         <div
@@ -36,9 +31,9 @@ const About = ({
                            <h2 className="text-2xl xl:text-4xl font-semibold">
                               {feature.title}
                            </h2>
-                           <span className="text-sm lg:text-base opacity-85 font-semibold">
+                           <p className="text-sm lg:text-base opacity-85 font-semibold">
                               {feature.description}
-                           </span>
+                           </p>
                         </div>
                      ))}
                   </div>

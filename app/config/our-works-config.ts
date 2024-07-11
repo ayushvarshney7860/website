@@ -2,9 +2,8 @@ import { OurWorksPageConfig } from "@/types";
 
 const config: OurWorksPageConfig = {
    heading: "Our Works",
-   default_category: "Category 1",
+   default_category: "Pre-Wedding",
    image_categories: [
-      
       {
          name: "Haldi",
          images: [
@@ -13,10 +12,9 @@ const config: OurWorksPageConfig = {
             "/assets/h3.webp",
             "/assets/h4.webp",
             "/assets/h5.webp",
-      
          ],
       },
-   
+
       {
          name: "Wedding",
          images: [
@@ -84,8 +82,7 @@ const config: OurWorksPageConfig = {
       "WqrI-pZPE9s",
       "UQ4xmxFVlVw",
       "s3y8AYcMkXw",
-      "PUZ-d7QE3X8"
-      
+      "PUZ-d7QE3X8",
    ],
 };
 

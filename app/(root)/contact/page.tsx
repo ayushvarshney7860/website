@@ -20,10 +20,10 @@ const Contact = () => {
                <span className="font-semibold opacity-85">
                   {configs.top_heading}
                </span>
-               <h2 className="text-3xl md:text-5xl font-bold">
+               <h1 className="text-3xl md:text-5xl font-bold">
                   {configs.heading}
-               </h2>
-               <span className="opacity-85">{configs.description}</span>
+               </h1>
+               <p className="opacity-85">{configs.description}</p>
             </div>
             <div className="flex flex-col w-full sm:w-2/5 sm:pr-10">
                <div className="flex flex-col space-y-8">

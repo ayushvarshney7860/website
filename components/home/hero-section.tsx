@@ -1,4 +1,3 @@
-import { Button } from "../ui/button";
 import ParallaxImage from "../helpers/parallax-image";
 import { HomeAnimationConfig, HomeConfig } from "@/types";
 import { cn } from "@/lib/utils";
@@ -25,9 +24,9 @@ const Hero = ({
                <h1 className="text-5xl xs:text-7xl font-bold">
                   {config.featured_text}
                </h1>
-               <div className="text-xl xs:text-2xl opacity-85 font-semibold">
+               <p className="text-xl xs:text-2xl opacity-85 font-semibold">
                   {config.featured_description}
-               </div>
+               </p>
                <div className="flex space-x-3 sm:space-x-6">
                   <BookBtn />
                   <LearnMoreBtn outline />
