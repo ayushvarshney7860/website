@@ -64,12 +64,12 @@ const Services = () => {
                      )}
                      index={index}
                   >
-                     <h1 className="text-4xl xs:text-5xl font-semibold">
+                     <h2 className="text-4xl xs:text-5xl font-semibold">
                         {service.title}
-                     </h1>
-                     <div className="text-base xs:text-xl sm:text-2xl lg:text-xl opacity-100 font-semibold">
+                     </h2>
+                     <p className="text-base xs:text-xl sm:text-2xl lg:text-xl opacity-100 font-semibold">
                         {service.description}
-                     </div>
+                     </p>
                      <div className="flex space-x-3 sm:space-x-6">
                         <BookBtn />
                         <Link href={config.check_out_btn_href}>

@@ -24,9 +24,9 @@ const HistoryAndMission = ({
                <h1 className="text-5xl xs:text-6xl font-bold">
                   {config.history_text}
                </h1>
-               <div className="text-sm xs:text-xl opacity-75 font-semibold text-center">
+               <p className="text-sm xs:text-xl opacity-75 font-semibold text-center">
                   {config.history_description}
-               </div>
+               </p>
             </AnimateOnScroll>
             <AnimateOnScroll
                animateIn={animations.mission_text}
@@ -35,9 +35,9 @@ const HistoryAndMission = ({
                <h1 className="text-5xl xs:text-6xl font-bold">
                   {config.mission_text}
                </h1>
-               <div className="text-sm xs:text-xl opacity-75 font-semibold text-center">
+               <p className="text-sm xs:text-xl opacity-75 font-semibold text-center">
                   {config.mission_description}
-               </div>
+               </p>
             </AnimateOnScroll>
          </div>
          <div className="flex space-x-2 xs:space-x-6 mt-20">

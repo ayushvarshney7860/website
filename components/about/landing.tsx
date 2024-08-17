@@ -25,9 +25,9 @@ const AboutLandingPage = ({
             <h1 className="text-5xl xs:text-6xl font-bold">
                {config.about_text}
             </h1>
-            <div className="text-sm xs:text-xl opacity-85 font-semibold">
+            <p className="text-sm xs:text-xl opacity-85 font-semibold">
                {config.about_description}
-            </div>
+            </p>
             <div className="flex space-x-3 sm:space-x-6">
                <BookBtn />
                <LearnMoreBtn outline />
