@@ -2,9 +2,9 @@ import { Config } from "@/types";
 
 const config: Config = {
    home: {
-      featured_text: "YOUR STORY OUR LENSE",
+      featured_text: "Best Wedding Photographer In Lucknow",
       featured_description:
-         "Welcome to HighPixelZone where we capture the moments you cherish.",
+         "We specialize in capturing the most precious and unique moments of your life with the utmost care and creativity, ensuring their essence is preserved beautifully. Elevate your celebration with one of Lucknow’s finest wedding photographers. Our images evoke the stories you cherish the most. Our team consists of top traditional wedding photographers in UP, skilled candid photographers, and creative designers, all trained to capture and present the cherished moments of your life with unparalleled creativity and unique color processing techniques.",
       featured_image: "/assets/home-landing/front.webp",
       image_strip: [
          "/assets/home-landing/2 (1).webp",
